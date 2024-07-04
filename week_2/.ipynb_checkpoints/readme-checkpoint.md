@@ -10,7 +10,3 @@
     4.1 Config Env Variables (HF token)
 5. Start Server
 6. Run 'nvidisa-smi' to check the availability of GPU
-
-# Ollama Setup
-
-curl -fsSL https://ollama.com/install.sh | sh
