@@ -13,4 +13,21 @@
 
 # Ollama Setup
 
+## From CLI
+
 curl -fsSL https://ollama.com/install.sh | sh
+ollama start
+ollama run phi3
+
+## Docker
+
+docker run -it \
+    -v ollama:/root/.ollama \
+    -p 11434:11434 \
+    --name ollama \
+    ollama/ollama
+
+# Docker Compose
+
+cd week_2/docker_elasticsearch_ollama
+docker-compose up
